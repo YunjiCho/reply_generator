@@ -9,8 +9,6 @@
     "activeTab"
   ],
   "host_permissions": [
-    "https://*.vercel.app/*",
-    "https://*.your-domain.com/*",
     "https://*.netlify.app/*"
   ],
   "background": {
@@ -33,4 +31,4 @@
     "48": "assets/icons/icon48.png",
     "128": "assets/icons/icon128.png"
   }
-} 
+}

@@ -84,4 +84,4 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // 커스텀 도메인으로 변경
-const API_ENDPOINT = 'https://[your-site-name].netlify.app/.netlify/functions/generate'; 
+const API_ENDPOINT = 'https://replygenerator.netlify.app/.netlify/functions/generate'; 
