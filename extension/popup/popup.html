@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>AI 답장 생성하기</h2>
+    
+    <div class="input-section">
+      <div class="structured-input">
+        <div class="input-group">
+          <label>답장 내용:</label>
+          <input type="text" id="intention" placeholder="예: 감사 인사, 거절, 수락, 문의 등">
+        </div>
+        
+        <div class="input-group">
+          <label>말투:</label>
+          <input type="text" id="tone" placeholder="예: 격식체, 친근체, 비즈니스체 등">
+        </div>
+      </div>
+    </div>
+
+    <div class="selected-text">
+      <h3>선택된 텍스트</h3>
+      <p id="selectedTextContent"></p>
+    </div>
+
+    <button id="generateBtn">답장 생성</button>
+
+    <div class="result-section">
+      <textarea id="generatedReply" rows="8" placeholder="생성된 답장이 여기에 표시됩니다..."></textarea>
+      <button id="copyBtn">
+        <span class="copy-icon">📋</span>
+        복사하기
+      </button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
